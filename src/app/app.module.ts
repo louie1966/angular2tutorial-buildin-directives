@@ -7,6 +7,7 @@ import { NgForGroupedExampleComponent } from './ngfor-grouped-example/ngfor-grou
 import { NgIfExampleComponent } from './ngif-example/ngif-example.component';
 import { NgSwitchExampleComponent } from './ngswitch-example/ngswitch-example.component';
 import { NgStyleExampleComponent } from './ngstyle-example/ngstyle-example.component';
+import { NgClassExampleComponent } from './ngclass-example/ngclass-example.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { NgStyleExampleComponent } from './ngstyle-example/ngstyle-example.compo
     NgForGroupedExampleComponent,
     NgIfExampleComponent,
     NgSwitchExampleComponent,
-    NgStyleExampleComponent
+    NgStyleExampleComponent,
+    NgClassExampleComponent
   ],
   imports: [
     BrowserModule
