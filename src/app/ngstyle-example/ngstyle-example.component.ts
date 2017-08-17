@@ -1,11 +1,35 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'ngstyle-example',
+  selector: 'app-ngstyle-example',
   templateUrl: './ngstyle-example.component.html',
   styleUrls: ['./ngstyle-example.component.css']
 })
 export class NgStyleExampleComponent {
+
+  people: any[] = [
+    {
+      'name': 'Douglas Pace',
+      'country': 'UK'
+    },
+    {
+      'name': 'Mcleod Mueller',
+      'country': 'USA'
+    },
+    {
+      'name': 'Day Meyers',
+      'country': 'HK'
+    },
+    {
+      'name': 'Aguirre Ellis',
+      'country': 'UK'
+    },
+    {
+      'name': 'Cook Tyson',
+      'country': 'USA'
+    }
+  ];
+
   getColor(country) {
     switch (country) {
       case 'UK':
@@ -16,26 +40,4 @@ export class NgStyleExampleComponent {
         return 'red';
     }
   }
-  people: any[] = [
-    {
-      "name": "Douglas Pace",
-      "country": 'UK'
-    },
-    {
-      "name": "Mcleod Mueller",
-      "country": 'USA'
-    },
-    {
-      "name": "Day Meyers",
-      "country": 'HK'
-    },
-    {
-      "name": "Aguirre Ellis",
-      "country": 'UK'
-    },
-    {
-      "name": "Cook Tyson",
-      "country": 'USA'
-    }
-  ];
 }

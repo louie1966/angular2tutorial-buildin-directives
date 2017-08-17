@@ -9,6 +9,10 @@ import { NgSwitchExampleComponent } from './ngswitch-example/ngswitch-example.co
 import { NgStyleExampleComponent } from './ngstyle-example/ngstyle-example.component';
 import { NgClassExampleComponent } from './ngclass-example/ngclass-example.component';
 import { NgNonBindableExampleComponent } from './ngnonbindable-example/ngnonbindable-example.component';
+import { CodeCraftIfDirective } from './code-craft-if.directive';
+import { CodeCraftForOfDirective } from './code-craft-for-of.directive';
+import { JokeComponent } from './joke/joke.component';
+import { JokeListComponent } from './joke-list/joke-list.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +23,11 @@ import { NgNonBindableExampleComponent } from './ngnonbindable-example/ngnonbind
     NgSwitchExampleComponent,
     NgStyleExampleComponent,
     NgClassExampleComponent,
-    NgNonBindableExampleComponent
+    NgNonBindableExampleComponent,
+    CodeCraftIfDirective,
+    CodeCraftForOfDirective,
+    JokeComponent,
+    JokeListComponent
   ],
   imports: [
     BrowserModule

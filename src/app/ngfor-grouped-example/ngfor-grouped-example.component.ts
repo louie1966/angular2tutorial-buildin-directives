@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'ngfor-grouped-example',
+  selector: 'app-ngfor-grouped-example',
   templateUrl: './ngfor-grouped-example.component.html',
   styleUrls: ['./ngfor-grouped-example.component.css']
 })
@@ -11,10 +11,10 @@ export class NgForGroupedExampleComponent {
       'country': 'UK',
       'people': [
         {
-          "name": "Douglas Pace"
+          'name': 'Douglas Pace'
         },
         {
-          "name": "Mcleod Mueller"
+          'name': 'Mcleod Mueller'
         },
       ]
     },
@@ -22,13 +22,13 @@ export class NgForGroupedExampleComponent {
       'country': 'US',
       'people': [
         {
-          "name": "Day Meyers"
+          'name': 'Day Meyers'
         },
         {
-          "name": "Aguirre Ellis"
+          'name': 'Aguirre Ellis'
         },
         {
-          "name": "Cook Tyson"
+          'name': 'Cook Tyson'
         }
       ]
     }
